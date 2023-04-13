@@ -28,6 +28,7 @@
     "eslint": "^7.32.0 || ^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.2",
+    "gh-pages": "^5.0.0",
     "parcel": "^2.8.3",
     "parcel-namer-hashless": "^1.0.4",
     "rtlcss": "^4.1.0"
@@ -42,8 +43,13 @@
   },
   "packageManager": "yarn@1.2.11 | npm@8.x",
   "parcel-namer-hashless": {
-  "include": [".js$", ".css$"],
-  "exclude": [".background.png$"],
-  "mode": "all"
-}
+    "include": [
+      ".js$",
+      ".css$"
+    ],
+    "exclude": [
+      ".background.png$"
+    ],
+    "mode": "all"
+  }
 }
