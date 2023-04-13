@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/sshahriazz/webpack-site.git"
   },
-  "homepage": "",
+  "homepage": "https://sshahriazz.github.io/dynamic",
   "readme": "https://github.com/sshahriazz/webpack-site/blob/main/README.md",
   "description": "A HTML5 template built with Bootstrap 5 and Parcel",
   "scripts": {
