@@ -1,7 +1,0 @@
-$custom-colors: (
-    "custom-color": rgb(0, 153, 66)
-);
-
-// Merge the maps
-$theme-colors: map-merge($theme-colors, $custom-colors);
-$theme-colors: map-remove($theme-colors, "info", "light", "dark");

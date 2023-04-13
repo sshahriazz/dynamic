@@ -1,6 +1,5 @@
-console.log("I am loaded");
-// Import all of Bootstrap's JS
 import * as bootstrap from "bootstrap";
-export function pressButton() {
+
+window.pressButton = function () {
   console.log("Button pressed");
-}
+};
