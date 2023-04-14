@@ -15,7 +15,7 @@
   "readme": "https://github.com/sshahriazz/webpack-site/blob/main/README.md",
   "description": "A HTML5 template built with Bootstrap 5 and Parcel",
   "scripts": {
-    "dev": "parcel serve src/pug/index.pug --public-url / --dist-dir dist && rtl-css",
+    "dev": "parcel serve src/pug/index.pug --public-url / --dist-dir dist",
     "rtl-css": "rtlcss dist/index.css dist/theme.rtl.css",
     "build": "rm -rf dist && parcel build  src/pug/index.pug",
     "deploy": "gh-pages -d dist"
