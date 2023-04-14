@@ -1,7 +1,8 @@
 {
   "name": "dynamic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
+  "private": true,
   "author": {
     "name": "Shahriaz Kobir",
     "email": "shahriazkobir@gmail.com"
@@ -16,7 +17,7 @@
   "scripts": {
     "dev": "parcel serve src/pug/index.pug --public-url / --dist-dir dist && rtl-css",
     "rtl-css": "rtlcss dist/index.css dist/theme.rtl.css",
-    "build": "parcel build  src/pug/index.pug",
+    "build": "rm -rf dist && parcel build  src/pug/index.pug",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
